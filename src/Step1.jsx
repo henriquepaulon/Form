@@ -46,7 +46,7 @@ export default function Step1({ data, updateData }) {
   return (
     <div>
       <div>
-        <label>Email (obrigatório):</label><br />
+        <label>Email *</label><br />
         <input
           type="email"
           value={email}
@@ -65,7 +65,7 @@ export default function Step1({ data, updateData }) {
       </div>
 
       <div>
-        <label>Senha (obrigatório, min 6 caracteres):</label><br />
+        <label>Senha *</label><br />
         <input
           type="password"
           value={senha}
@@ -77,7 +77,7 @@ export default function Step1({ data, updateData }) {
       </div>
 
       <div>
-        <label>Confirmação de senha (obrigatório):</label><br />
+        <label>Confirmação de senha *</label><br />
         <input
           type="password"
           value={senhaConfirma}

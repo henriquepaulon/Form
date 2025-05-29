@@ -18,6 +18,10 @@
     border-bottom: 3px solid transparent;
     background-color: #eee;
     position: relative;
+
+    border-radius: 8px; /* cantos arredondados */
+    border: 1px solid transparent; /* para dar um contorno que fique suave */
+    transition: background-color 0.3s, border-color 0.3s
   }
   
   .tabButton:last-child {
@@ -25,7 +29,9 @@
   }
   
   .active {
-    border-bottom: 3px solid blue;
+    border-bottom-color: #007bff;
+    background-color: #cce4ff;
+    border-color: #007bff;
   }
   
   .icon {

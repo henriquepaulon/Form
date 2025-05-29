@@ -21,7 +21,7 @@ export default function Step3({ data, updateData }) {
   return (
     <div>
       <div>
-        <label>Endereço completo (obrigatório):</label><br />
+        <label>Endereço completo *</label><br />
         <textarea
           rows={3}
           value={endereco}
