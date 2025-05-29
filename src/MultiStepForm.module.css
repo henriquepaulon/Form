@@ -1,0 +1,47 @@
+/* src/MultiStepForm.module.css */
+
+.container {
+    max-width: 500px;
+    margin: auto;
+  }
+  
+  .tabs {
+    display: flex;
+    margin-bottom: 20px;
+  }
+  
+  .tabButton {
+    flex: 1;
+    padding: 10px;
+    margin-right: 8px;
+    cursor: pointer;
+    border-bottom: 3px solid transparent;
+    background-color: #eee;
+    position: relative;
+  }
+  
+  .tabButton:last-child {
+    margin-right: 0;
+  }
+  
+  .active {
+    border-bottom: 3px solid blue;
+  }
+  
+  .icon {
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    font-weight: bold;
+  }
+  
+  .successMessage {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    transform: translateY(-10vh); /* sobe um pouco */
+  }
+  
