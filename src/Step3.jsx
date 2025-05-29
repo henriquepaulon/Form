@@ -22,6 +22,9 @@ export default function Step3({ data, updateData }) {
     <div>
       <div>
         <label>Endereço completo *</label><br />
+        <div>
+        <br />        
+        </div>
         <textarea
           rows={3}
           value={endereco}
@@ -29,6 +32,9 @@ export default function Step3({ data, updateData }) {
           style={{ borderColor: error ? 'red' : endereco ? 'green' : undefined, width: '100%' }}
         />
         {error && <p style={{ color: 'red' }}>Preencha o endereço completo</p>}
+        <div>
+        <br />        
+        </div>
       </div>
     </div>
   );
