@@ -62,6 +62,9 @@ export default function Step1({ data, updateData }) {
         {email !== '' && errors.email && (
           <p style={{ color: 'red' }}>Email inválido</p>
         )}
+        <div>
+        <br />        
+        </div>
       </div>
 
       <div>
@@ -74,6 +77,9 @@ export default function Step1({ data, updateData }) {
           disabled={!email.trim()}
         />
         {errors.senha && <p style={{ color: 'red' }}>Senha inválida</p>}
+        <div>
+        <br />        
+        </div>
       </div>
 
       <div>
@@ -86,6 +92,9 @@ export default function Step1({ data, updateData }) {
           disabled={!email.trim()}
         />
         {errors.senhaConfirma && <p style={{ color: 'red' }}>As senhas não coincidem</p>}
+        <div>
+        <br />        
+        </div>
       </div>
     </div>
   );
